@@ -6,8 +6,8 @@
 6. Apa persamaan variable system dengan variable constant ?
 
 jawaban
-1. Dokumen root adalah direktori yang berisi file-file yang dapat diakibatkan
-2. Dokumen root pada Apache Web Server tidak harus terletak dalam direktori C:\xampp\htdocs. Dokumen root dapat berada di mana saja, asalkan direktori tersebut dapat diakses oleh Apache Web Server. Pada umumnya, dokumen root diatur melalui konfigurasi Apache Web Server, seperti dalam file httpd.conf atau virtualhost.conf. Jika menggunakan XAMPP, maka dokumen root biasanya diatur dalam file httpd-vhosts.conf. 
+1. Dokumen root adalah direktori yang berisi file-file yang dapat diakibatkan oleh server web. Dokumen root biasanya berisi file-file yang dapat diakses oleh pengguna melalui URL. Dokumen root dapat berupa direktori atau file individu, tergantung pada konfigurasi server web. Dokumen root dapat diakses melalui URL dengan menggunakan nama direktori atau file sebagai bagian dari URL.
+2. Dokumen root pada Apache Web Server tidak harus terletak dalam direktori C:\xampp\htdocs. Dokumen root dapat berada di mana saja, asalkan direktori tersebut dapat diakses oleh Apache Web Server. Pada umumnya, dokumen root diatur melalui konfigurasi Apache Web Server, seperti dalam file httpd.conf atau virtualhost.conf. Jika menggunakan XAMPP, maka dokumen root biasanya diatur dalam file httpd-vhosts.conf. Direktori C:\xampp\htdocs hanya merupakan contoh direktori yang dapat digunakan sebagai dokumenn root, tetapi tidak harus. 
 3. Perintah-perintah Git adalah sebagai berikut:
 - init: Membuat repository baru
 - clone: Membuat salinan repository dari lokasi lain

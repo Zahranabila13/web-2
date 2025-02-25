@@ -1,0 +1,21 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs? Jelaskan jawaban anda
+3. Jelaskan apa yang dimaksud dengan perintah git: init, clone, remote, add, commit, push dan checkout
+4. Jelaskan perbedaan antara GitHub dan GitLab
+5. Apa bedanya variable user dengan variable system ?
+6. Apa persamaan variable system dengan variable constant ?
+
+jawaban
+1. Dokumen root adalah direktori yang berisi file-file yang dapat diakibatkan
+2. Dokumen root pada Apache Web Server tidak harus terletak dalam direktori C:\xampp\htdocs. Dokumen root dapat berada di mana saja, asalkan direktori tersebut dapat diakses oleh Apache Web Server. Pada umumnya, dokumen root diatur melalui konfigurasi Apache Web Server, seperti dalam file httpd.conf atau virtualhost.conf. Jika menggunakan XAMPP, maka dokumen root biasanya diatur dalam file httpd-vhosts.conf. 
+3. Perintah-perintah Git adalah sebagai berikut:
+- init: Membuat repository baru
+- clone: Membuat salinan repository dari lokasi lain
+- remote: Menambahkan repository remote
+- add: Menambahkan file ke staging area
+- commit: Menyimpan perubahan ke repository 
+- push: Mengirimkan perubahan ke repository remote 
+- checkout: Mengganti branch yang sedang digunakan 
+4. GitHub dan GitLab adalah platform hosting repository yang berbeda, tetapi memiliki fungsi yang sama, yaitu menyimpan dan mengelola kode sumber. Perbedaan utama antara GitHub dan GitLab adalah pada fitur-fitur yang ditawarkan dan biaya. GitHub lebih populer dan memiliki fitur-fitur yang lebih lengkap, tetapi juga lebih mahal. Sementara itu, GitLab lebih murah dan memiliki fitur-fitur yang lebih sederhana. 
+5. Variable user adalah variabel yang dapat diubah oleh pengguna, sedangkan variable system adalah variabel yang tidak dapat diubah oleh pengguna. Variable system biasanya digunakan untuk mengatur konfigurasi sistem operasi. 
+6. Variable system dan variable constant memiliki kesamaan, yaitu tidak dapat diubah oleh pengguna. Namun, variable constant adalah variabel yang memiliki nilai yang tetap dan tidak dapat diubah, sedangkan variable system adalah variabel yang dapat diubah oleh sistem operasi, tetapi tidak dapat diubah oleh pengguna. 
